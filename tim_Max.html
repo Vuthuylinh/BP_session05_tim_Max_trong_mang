@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Max</title>
+</head>
+<body>
+<script>
+    let x=[-3,5,10,17,19,50];
+    let max=x[0];
+    let index=0;
+    for(i=0;i<x.length;i++){
+        if(x[i]>max){
+            max=x[i];
+            index=i;
+        }
+    }
+    document.write("max: " +max + " at position: "+ index);
+</script>
+
+</body>
+</html>
